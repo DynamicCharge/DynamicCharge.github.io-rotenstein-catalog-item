@@ -829,8 +829,8 @@ table {
     color: #37383D; }
     @media screen and (max-width: 740px) {
       .catalog-item-page .section-header {
-        font-size: 25px;
-        line-height: 25px; } }
+        font-size: 25px !important;
+        line-height: 25px !important; } }
   .catalog-item-page .section-text {
     font-style: normal;
     font-weight: 300;
@@ -1117,7 +1117,7 @@ table {
     .catalog-item-page .slider-tabs .slider-tabs__wrap {
       position: relative; }
     .catalog-item-page .slider-tabs .slider-tabs__nav__controlls {
-      display: flex;
+      display: none;
       position: absolute;
       top: 5px;
       right: 0;
@@ -1193,6 +1193,8 @@ table {
       /* or 21px */
       color: #37383D;
       margin-bottom: 43px; }
+    .catalog-item-page .slider-tabs .slider-tabs__main__slide__fancy-wrap__box {
+      position: relative; }
     .catalog-item-page .slider-tabs .slider-tabs__main__slide__fancy-wrap {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
@@ -1494,6 +1496,8 @@ table {
     padding: 25px 42px 36px; } }
 
 @media screen and (max-width: 885px) {
+  .catalog-item-page .slider-tabs .slider-tabs__nav__controlls {
+    display: flex; }
   .catalog-item-page .slider-tabs .slider-tabs__nav .slick-list {
     overflow: hidden !important; }
   .catalog-item-page .item-title .item-title__info-box__links {
@@ -1535,6 +1539,27 @@ table {
     line-height: 160%; } }
 
 @media screen and (max-width: 655px) {
+  .slider-tabs__main__slide__fancy-wrap__box .slider-tabs__main__slide__fancy-wrap {
+    padding: 0 30px; }
+  .slider-tabs__main__slide__fancy-wrap__box .transparent-slider-btn {
+    top: 50%; }
+  .catalog-item-page .slider-tabs .slider-tabs__main__slide__img-link {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; }
+  .catalog-item-page .slider-tabs .slider-tabs__main__slide__fancy-wrap {
+    display: block; }
+  .slider-tabs__main__slide__slider__slide {
+    max-height: 177px; }
+  .catalog-item-page .slider-tabs .slider-tabs__main__slide__slider {
+    max-height: 177px; }
+  .catalog-item-page .slider-tabs .slider-tabs__main__slide__nav-slider {
+    display: none; }
+  .catalog-item-page .slider-tabs .site-select__list {
+    grid-template-columns: repeat(2, 1fr); }
+  .catalog-item-page .item-title .item-title__slider__controll {
+    top: 40%; }
   .catalog-item-page .portfolio .portfolio__list__item._wide {
     grid-column-start: 1;
     grid-column-end: 3;
