@@ -11843,6 +11843,7 @@ $(document).ready(function () {
         fade: true,
         cssEase: 'linear',
         asNavFor: '.slider-tabs__nav',
+        adaptiveHeight: true,
     });
 
     $('.slider-tabs__main__slide__slider').slick({
