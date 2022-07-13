@@ -734,7 +734,7 @@ table {
 
 .offer-modal__wrapper .offer-modal__header {
   position: relative;
-  padding: 18px 20px 17px;
+  padding: 31px 20px 17px;
   box-sizing: border-box;
   font-style: normal;
   font-weight: 400;
@@ -762,12 +762,14 @@ table {
   grid-template-columns: 1fr 1fr; }
 
 .offer-modal__wrapper .offer-modal__body__left {
+  max-width: 408px;
+  width: 100%;
   min-height: 268px;
   position: relative;
   box-sizing: border-box;
-  padding: 30px 77px;
+  padding: 30px 10px;
   display: flex;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
   background: #B34215; }
@@ -793,8 +795,10 @@ table {
   color: #fff; }
 
 .offer-modal__wrapper .offer-modal__body__value {
-  font-size: 127px;
+  max-width: 408px;
+  font-size: 33px;
   font-weight: 700;
+  text-align: center;
   text-transform: uppercase;
   color: #fff;
   margin-bottom: 5px; }
@@ -838,7 +842,7 @@ table {
   justify-content: start;
   align-items: center;
   flex-direction: column;
-  padding: 18px 0 25px; }
+  padding: 18px 15px 25px; }
 
 .offer-modal__wrapper .offer-modal__bottom__date {
   font-style: normal;
@@ -1795,6 +1799,8 @@ table {
     padding: 25px 42px 36px; } }
 
 @media screen and (max-width: 885px) {
+  .offer-modal__wrapper .offer-modal__bottom__date {
+    font-size: 17px; }
   .offer-modal__wrapper .offer-modal__bottom__wrap {
     justify-content: center; }
   .offer-modal__wrapper .offer-modal__bottom__transparent {
@@ -1808,7 +1814,7 @@ table {
     background-repeat: no-repeat;
     background-size: cover; }
   .offer-modal__wrapper .offer-modal__header {
-    padding-top: 51px;
+    padding-top: 35px;
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
@@ -1816,8 +1822,10 @@ table {
     /* identical to box height, or 36px */
     text-align: center;
     color: #37383D; }
+  .offer-modal__wrapper .offer-modal__body__left {
+    min-height: 200px; }
   .offer-modal__wrapper .offer-modal__body__left::after {
-    top: 37px;
+    top: -29px;
     left: unset;
     right: 171px;
     transform: rotate(90deg);
