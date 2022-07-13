@@ -11949,7 +11949,7 @@ $(document).ready(function () {
             touch : false,
             modal : true,
         });
-    }, 1000);
+    }, 11000);
     $(document).on('click', '.close-modal', function() {
         $.fancybox.close();
     });
