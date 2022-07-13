@@ -717,6 +717,12 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+.fancybox-navigation .fancybox-button--arrow_left {
+  padding: 20px 15px 20px 6px; }
+
+.fancybox-navigation .fancybox-button--arrow_right {
+  padding: 20px 6px 20px 15px; }
+
 .offer-modal__wrapper * {
   font-family: 'Myriad Pro' !important;
   font-weight: 400;
@@ -1879,6 +1885,8 @@ table {
     line-height: 160%; } }
 
 @media screen and (max-width: 655px) {
+  .catalog-item-page .item-title .title__info__wrap__phone {
+    font-size: 24px; }
   .catalog-item-page .slider-tabs .site-select__slider-wrap__controlls {
     display: block; }
   .slider-tabs__main__slide__fancy-wrap__box .slider-tabs__main__slide__fancy-wrap {
