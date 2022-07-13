@@ -736,7 +736,8 @@ table {
 
 .offer-modal__wrapper .offer-modal {
   max-width: 817px;
-  width: 100%; }
+  width: 100%;
+  position: relative; }
 
 .offer-modal__wrapper .offer-modal__header {
   position: relative;
@@ -761,7 +762,8 @@ table {
   align-items: center;
   position: absolute;
   right: 0;
-  top: 0; }
+  top: 0;
+  z-index: 10; }
 
 .offer-modal__wrapper .offer-modal__body {
   display: grid;
@@ -853,12 +855,12 @@ table {
 .offer-modal__wrapper .offer-modal__bottom__date {
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 15px;
   line-height: 120%;
   /* identical to box height, or 24px */
   text-align: center;
   color: #37383D;
-  margin-bottom: 6px; }
+  margin-bottom: 20px; }
 
 .offer-modal__wrapper .offer-modal__bottom__phone {
   font-style: normal;
